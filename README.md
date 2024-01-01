@@ -1,11 +1,5 @@
 # Hellow world javascript action
 
-:::note warn
-This action is how to create github actions tutorial.
-
-https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
-:::
-
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
 ## Inputs
