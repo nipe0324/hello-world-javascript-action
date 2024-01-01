@@ -1,3 +1,29 @@
-# hello-world-javascript-action
+# Hellow world javascript action
 
-https://docs.github.com/ja/actions/creating-actions/creating-a-javascript-action
+:::note warn
+This action is how to create github actions tutorial.
+
+https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action
+:::
+
+This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+
+## Inputs
+
+### `whot-to-greet`
+
+**Required** The name of the person to greet. Default `"World"`.
+
+## Outputs
+
+### `time`
+
+The time we greeted you.
+
+## Example usage
+
+```yaml
+uses: actions/hello-world-javascript-action@v1
+with:
+  who-to-greet: 'Mona the Octocat'
+```
